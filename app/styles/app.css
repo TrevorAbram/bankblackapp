@@ -1,0 +1,41 @@
+@import "bootstrap";
+
+
+body {
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif, monospace;
+  padding: 0px 20px;
+}
+
+.banks {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+
+}
+
+.bankImage {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.bank-model {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: none;
+
+}
+
+a {
+color: grey;
+}

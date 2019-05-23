@@ -1,0 +1,21 @@
+
+  <!-- {{bank-tile}} -->
+<div class="card-deck">
+  <div class="card">
+    {{#each model as |b|}}
+      <div class="card-body">
+        <img src={{b.bankImage}} alt="Bank Image" style="width: 300px;">
+        <h3>Name: {{b.bankName}}</h3>
+        <p>Location: {{b.bankCity}}</p>
+        <p>Open: {{b.openedOn}}</p>
+        <p>Owner: {{b.bankOwner}}</p>
+        <div class="card-footer">
+          <button {{action "destroyBank" bank class="btn btn-sm btn-reg"}}>Delete Bank</button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
+
+
+{{outlet}}

@@ -6,11 +6,22 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+
+    firebase: {
+      apiKey: "AIzaSyBihnVpdj-IQY3-_qclMfb7K9CdHBbgRfA",
+      authDomain: "sample-project-av.firebaseapp.com",
+      databaseURL: "https://sample-project-av.firebaseio.com",
+      projectId: "sample-project-av",
+      storageBucket: "sample-project-av.appspot.com",
+      messagingSenderId: "554846130790"
+  },
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       },
+
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
         Date: false

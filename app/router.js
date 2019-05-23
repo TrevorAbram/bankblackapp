@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('banks', function() {
+    this.route('new');
+  });
+  this.route('about');
+  this.route('contact');
 });
 
 export default Router;

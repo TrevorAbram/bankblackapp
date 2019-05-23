@@ -1,0 +1,23 @@
+{"banks": [{
+
+  "bankName": "Charles Swarb Banks",
+  "bankCity": "Dallas, Texas",
+  "bankImage": "https://images.unsplash.com/photo-1484519213701-f60f23ec40c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+  "bankOwner": "Jessica Lissy",
+  "openedOn": "Sept 2, 2011"
+  }, {
+
+  "bankName": "City Of Amercia Banks",
+  "bankCity": "Desoto, Texas",
+  "bankImage": "https://images.unsplash.com/photo-1555704832-be33cde122e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80",
+  "bankOwner": "Mike Newman II",
+  "openedOn": "Dec 23, 2011"
+  }, {
+
+  "bankName": "First Capital Banks",
+  "bankCity": "Round Rock, Texas",
+  "bankImage": "https://images.unsplash.com/photo-1550613096-3d4dd652b9a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
+  "bankOwner": "Mike Newman II",
+  "openedOn": "Dec 23, 2011"
+  }]
+}
