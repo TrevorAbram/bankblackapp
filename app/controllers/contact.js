@@ -3,19 +3,17 @@ import { match, not } from '@ember/object/computed';
 
 export default Controller.extend({
 
-
-
-  emailAddress: "",
+  emailAddress: '',
+  textMessage: '',
 
   isValid: match('emailAddress', /^.+@.+\..+$/),
+  isValid: match('textMessage', /^.+@.+\..+$/),
   isDisabled: not('isValid'),
 
   actions: {
-
-    saveInvite(){
-      alert(`Saving in progress of: ${this.get('emailAddress')}`);
-      this.set('responseMessage', `Thank you! We got your email! ${this.get('emailAddress')}`);
-      this.set('emailAddress');
+    saveSend() {
+      alert(`We're processing...${('emailAddress')}`);
+      this.set('Thanks!')
     }
   }
 });

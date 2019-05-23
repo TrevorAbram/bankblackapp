@@ -1,6 +1,23 @@
 <div class="jumbotron">
   <div class="container">
     <h3>Contact Us</h3>
-    <h5>Are you a bank or institution?</h5>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-6-md">
+        <h3>Have more questions?</h3>
+        <p>We always welcome positive and negative feedback to make this site one of the best!</p>
+        <form>
+          <div class="form-group">
+            <label for="emailInputContact">Email:</label>
+            {{input id="emailInputContact" type="text" class="form-control" value=emailAddress placeholder="Email"}}
+            {{input id="textInputContact" type="text" class="form-control" value=textMessage placeholder="Text"}}
+            <button type="submit" name="button" class="btn btn-primary" disabled={{isDisabled}} {{action "saveSend"}}>Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
 </div>
